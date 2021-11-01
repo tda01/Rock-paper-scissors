@@ -41,7 +41,7 @@ p {
     justify-content: space-between;
     max-width: 400px;
     padding: 10px;
-    margin: 0 auto;
+    margin: 0;
     font-size: 24px;
     gap: 20px;
     
@@ -57,10 +57,12 @@ p {
 
 .ps p {
     margin-right: 0px;
+    margin-bottom: 5px;
 }
 
 .cs p {
     margin-left: 60px;
+    margin-bottom: 5px;
 }
 
 .game {
@@ -87,6 +89,7 @@ p {
     border: solid #563094 3px;
     text-decoration: none;
     user-select: none;
+    
 }
 
 .btn:hover {
@@ -99,3 +102,18 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+.game {
+    margin-top: 2rem;
+}
+
+.result {
+    margin-top: 10px;
+    height: 96px;
+    weight: 96px;
+}
+
+.hidden {
+    display: none;
+}
+
