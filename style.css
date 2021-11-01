@@ -89,6 +89,7 @@ p {
     border: solid #563094 3px;
     text-decoration: none;
     user-select: none;
+    margin-top: 5px;
     
 }
 
@@ -109,8 +110,8 @@ p {
 
 .result {
     margin-top: 10px;
-    height: 96px;
-    weight: 96px;
+    height: 91px;
+    weight: 91px;
 }
 
 .hidden {
